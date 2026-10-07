@@ -96,3 +96,10 @@ main.wrap{padding-top:40px;padding-bottom:56px}
 .about p{font-size:17px;line-height:1.65;max-width:68ch}
 .about .about-sign{margin-top:12px;font-family:var(--font-h);font-weight:600;font-size:18px;color:var(--accent-deep)}
 @media (max-width:480px){.about{padding:18px}}
+/* numbered takeaways */
+ol.ed-heads{counter-reset:tk}
+ol.ed-heads li{counter-increment:tk;padding-left:34px;min-height:24px}
+ol.ed-heads li::before{content:counter(tk);top:0;width:24px;height:24px;border-radius:50%;background:var(--accent-soft);color:var(--accent-deep);font:600 13px/24px var(--font-b);text-align:center}
+.ed-card.big .ed-summary{color:var(--text);font-weight:500;font-size:16px}
+.ed-card.big .ed-heads li{font-size:16px;line-height:1.5}
+.ed-more{font-size:16px;line-height:1.55;color:var(--accent-deep);font-weight:500;margin:-2px 0 18px;padding-top:14px;border-top:1px solid var(--divider);max-width:70ch}
