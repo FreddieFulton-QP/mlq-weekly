@@ -1,5 +1,5 @@
 (function () {
-  var KIT_FORM_ID = "";
+  var KIT_FORM_ID = "10014233";
 
   // Subscribe panel toggle (edition pages)
   var toggle = document.querySelector("[data-sub-toggle]");
