@@ -6,6 +6,21 @@
       "source": "/latest",
       "destination": "/editions/2026-10-18",
       "permanent": false
+    },
+    {
+      "source": "/3",
+      "destination": "/editions/2026-10-18",
+      "permanent": false
+    },
+    {
+      "source": "/2",
+      "destination": "/editions/2026-10-11",
+      "permanent": false
+    },
+    {
+      "source": "/1",
+      "destination": "/editions/2026-10-04",
+      "permanent": false
     }
   ]
 }
