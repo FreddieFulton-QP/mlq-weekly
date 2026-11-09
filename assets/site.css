@@ -116,3 +116,8 @@ ol.ed-heads li::before{content:counter(tk);top:0;width:24px;height:24px;border-r
 .ed-row-list li{font-size:14px;font-weight:400;line-height:1.45;color:var(--text);padding-left:30px;min-height:20px}
 .ed-row-list li::before{width:20px;height:20px;font-size:11px;line-height:20px;top:0}
 @media (max-width:640px){.ed-row{grid-template-columns:1fr;gap:12px;padding:18px}.ed-row .ed-range{margin-bottom:0}.ed-row .ed-cta{order:3}.ed-row-side{flex-direction:row;flex-wrap:wrap;align-items:baseline;column-gap:10px}.ed-row .ed-cta{margin:0 0 0 auto}}
+
+.about-author{display:flex;align-items:center;gap:14px;margin-top:18px;padding-top:18px;border-top:1px solid var(--divider)}
+.about-author img{width:64px;height:64px;border-radius:50%;object-fit:cover;display:block;flex:none}
+.about .about-author .about-sign{margin:0;line-height:1.1}
+.about .about-role{font-size:13px;color:var(--muted);margin:2px 0 0}

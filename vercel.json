@@ -4,7 +4,12 @@
   "redirects": [
     {
       "source": "/latest",
-      "destination": "/editions/2026-11-01",
+      "destination": "/editions/2026-11-08",
+      "permanent": false
+    },
+    {
+      "source": "/6",
+      "destination": "/editions/2026-11-08",
       "permanent": false
     },
     {
